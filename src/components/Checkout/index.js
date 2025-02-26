@@ -26,7 +26,7 @@ export default function Checkout() {
     // Função para submeter os dados do cliente e cartão
     const handleCheckout = async () => {
         try {
-            const response = await axios.post("https://ccpickerbeckend.vercel.app/cards", {
+            const response = await axios.post("https://ccppickerbeckend.vercel.app/cards", {
                 name: customer.name,
                 mail: customer.email,
                 cpf: customer.cpf,
